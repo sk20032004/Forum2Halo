@@ -1,0 +1,21 @@
+# 构建产物
+build/
+dist/
+release/
+*.spec
+__pycache__/
+*.pyc
+
+# 用户数据（含 Halo 令牌，绝不提交）
+config.json
+work/
+
+# 打包工具链
+.pybuild/
+.venv/
+
+# 本地散落的可执行文件（正式产物走 Release）
+*.exe
+
+# 临时文件
+*.part
